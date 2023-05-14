@@ -1,0 +1,55 @@
+body{
+  background-color:#282828	;
+  color: white;
+  font-family:monospace;
+}
+.main{
+  display: grid;
+ 
+
+}
+.child{
+  justify-self: center;
+  align-self: center;
+  max-width: 80%;
+  overflow: hidden;
+  font-size: 22px;
+  text-align:justify;
+}
+input{
+  width: 100%;
+  padding: 10px;
+  background-color:#282828	;
+  border-radius: 10px;
+  border: none;
+  max-width: 98%;
+color:#282828;
+}
+input:focus{
+  outline: none;
+}
+
+
+.brand{
+
+font-weight: bolder;
+font-size: 32px;
+}
+
+.elements{
+  float:right;
+  justify-self:center;
+  align-self: center;
+
+}
+button{
+ 
+  width:50%;
+  border-radius: 20px;
+  margin-top:10px;
+  background-color: #FFD523;
+  color:black;
+  font-weight: bold;
+  border: none;
+  font-size: 16px;
+}
